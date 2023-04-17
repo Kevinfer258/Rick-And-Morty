@@ -1,0 +1,32 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Chivo Mono', monospace;
+}
+body{
+    margin: 0;
+    color: white;
+}
+h1, h2, h3, h4, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+input{
+    outline: 0;
+    font-family: inherit;
+}
+button{
+    border: 0;
+    font-family: inherit;
+}
+img{
+    display: block;
+    width: 100%;
+}

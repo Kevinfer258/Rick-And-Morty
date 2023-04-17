@@ -1,0 +1,38 @@
+body{
+    min-height: 100vh ;
+}
+.App{
+    background-color: #05292E;
+    min-height: 100vh ;
+}
+.app_img{
+    text-align: center;
+    margin-bottom: 1.8em;
+}
+.app_form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.app_input{
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em 0 0 0.5em ;
+}
+.app_btn{
+    border-radius: 0 0.5em 0.5em 0  ;
+    padding: 0 1em;
+    background-color: rgb(125, 199, 14);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.app_btn:hover {
+    background-color: #3e8e41; 
+    box-shadow: 0 0 5px 2px #2B8E1E;
+}
+.app_error{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    min-height: 100vh ;
+}
